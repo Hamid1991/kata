@@ -21,14 +21,14 @@ public class TransformerService {
             return "BARFOO";
         }
 
-        StringBuilder transfromedNumer = new StringBuilder();
+        StringBuilder transformedNumber = new StringBuilder();
 
         if (isDivisibleBy3(number)) {
-            transfromedNumer.append("FOO");
+            transformedNumber.append("FOO");
         }
 
         if (isDivisibleBy5(number)) {
-            transfromedNumer.append("BAR");
+            transformedNumber.append("BAR");
         }
 
         int onesDigits = number % 10;
@@ -38,16 +38,16 @@ public class TransformerService {
 
             switch (tensDigits) {
                 case 3:
-                    transfromedNumer.append("FOO");
+                    transformedNumber.append("FOO");
                     break;
                 case 5:
-                    transfromedNumer.append("BAR");
+                    transformedNumber.append("BAR");
                     break;
                 case 7:
-                    transfromedNumer.append("QUIX");
+                    transformedNumber.append("QUIX");
                     break;
                 default:
-                    transfromedNumer.append(transfromedNumer);
+                    transformedNumber.append(transformedNumber);
                     break;
             }
         }
@@ -56,21 +56,21 @@ public class TransformerService {
 
             switch (onesDigits) {
                 case 3:
-                    transfromedNumer.append("FOO");
+                    transformedNumber.append("FOO");
                     break;
                 case 5:
-                    transfromedNumer.append("BAR");
+                    transformedNumber.append("BAR");
                     break;
                 case 7:
-                    transfromedNumer.append("QUIX");
+                    transformedNumber.append("QUIX");
                     break;
                 default:
-                    transfromedNumer.append(transfromedNumer);
+                    transformedNumber.append(transformedNumber);
                     break;
             }
         }
 
-        return transfromedNumer.toString();
+        return transformedNumber.toString();
     }
 
     private boolean isDivisibleBy3(int digit) {
