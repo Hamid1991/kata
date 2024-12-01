@@ -7,10 +7,15 @@ import static java.lang.String.format;
 @Service
 public class TransformerService {
 
+    public static final String THE_NUMBER_D_IS_OUT_OF_RANGE_0_100 = "the number %d is out of range [0-100]";
+    public static final String FOO = "FOO";
+    public static final String BAR = "BAR";
+    public static final String QUIX = "QUIX";
+
     public String transformNumber(Integer number){
 
         if(number > 100 || number < 0) {
-            return format("the number %d is out of range [0-100]", number);
+            return format(THE_NUMBER_D_IS_OUT_OF_RANGE_0_100, number);
         }
 
         StringBuilder transformedNumber = new StringBuilder();
@@ -45,13 +50,13 @@ public class TransformerService {
     private void applyDigitEqualityRule(StringBuilder transformedNumber, boolean divisibleCheckIsKo, int digit) {
             switch (digit) {
                 case 3:
-                    transformedNumber.append("FOO");
+                    transformedNumber.append(FOO);
                     break;
                 case 5:
-                    transformedNumber.append("BAR");
+                    transformedNumber.append(BAR);
                     break;
                 case 7:
-                    transformedNumber.append("QUIX");
+                    transformedNumber.append(QUIX);
                     break;
                 default:
                     transformedNumber.append(divisibleCheckIsKo ? digit : "");
@@ -61,8 +66,8 @@ public class TransformerService {
 
     private void applyNumberDivisibilityRule(StringBuilder transformedNumber, int divisor) {
         switch (divisor){
-            case 3 -> transformedNumber.append("FOO");
-            case 5 -> transformedNumber.append("BAR");
+            case 3 -> transformedNumber.append(FOO);
+            case 5 -> transformedNumber.append(BAR);
         }
     }
 
