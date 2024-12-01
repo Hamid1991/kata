@@ -33,12 +33,12 @@ public class TransformerService {
             transformedNumber.append("BAR");
         }
 
-        int onesDigits = number % 10;
-        int tensDigits = number / 10;
+        int onesDigit = number % 10;
+        int tensDigit = number / 10;
 
-        if (tensDigits != 0) {
+        if (tensDigit != 0) {
 
-            switch (tensDigits) {
+            switch (tensDigit) {
                 case 3:
                     transformedNumber.append("FOO");
                     break;
@@ -49,14 +49,14 @@ public class TransformerService {
                     transformedNumber.append("QUIX");
                     break;
                 default:
-                    transformedNumber.append(!isDivisibleBy5 && !isDivisibleBy3 ? tensDigits : "");
+                    transformedNumber.append(!isDivisibleBy5 && !isDivisibleBy3 ? tensDigit : "");
                     break;
             }
         }
 
-        if (onesDigits != 0) {
+        if (onesDigit != 0) {
 
-            switch (onesDigits) {
+            switch (onesDigit) {
                 case 3:
                     transformedNumber.append("FOO");
                     break;
@@ -67,7 +67,7 @@ public class TransformerService {
                     transformedNumber.append("QUIX");
                     break;
                 default:
-                    transformedNumber.append(!isDivisibleBy5 && !isDivisibleBy3 ? onesDigits : "");
+                    transformedNumber.append(!isDivisibleBy5 && !isDivisibleBy3 ? onesDigit : "");
                     break;
             }
         }
