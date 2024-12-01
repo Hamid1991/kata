@@ -23,11 +23,13 @@ public class TransformerService {
 
         StringBuilder transformedNumber = new StringBuilder();
 
-        if (isDivisibleBy3(number)) {
+        boolean isDivisibleBy3 = isDivisibleBy3(number);
+        if (isDivisibleBy3) {
             transformedNumber.append("FOO");
         }
 
-        if (isDivisibleBy5(number)) {
+        boolean isDivisibleBy5 = isDivisibleBy5(number);
+        if (isDivisibleBy5) {
             transformedNumber.append("BAR");
         }
 
@@ -47,7 +49,7 @@ public class TransformerService {
                     transformedNumber.append("QUIX");
                     break;
                 default:
-                    transformedNumber.append(transformedNumber);
+                    transformedNumber.append(!isDivisibleBy5 && !isDivisibleBy3 ? tensDigits : "");
                     break;
             }
         }
@@ -65,7 +67,7 @@ public class TransformerService {
                     transformedNumber.append("QUIX");
                     break;
                 default:
-                    transformedNumber.append(transformedNumber);
+                    transformedNumber.append(!isDivisibleBy5 && !isDivisibleBy3 ? onesDigits : "");
                     break;
             }
         }
