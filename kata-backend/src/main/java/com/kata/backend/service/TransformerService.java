@@ -15,64 +15,55 @@ public class TransformerService {
 
         StringBuilder transformedNumber = new StringBuilder();
 
-        boolean isDivisibleBy3 = isDivisibleBy3(number);
-        if (isDivisibleBy3) {
-            transformedNumber.append("FOO");
+        boolean isDivisibleBy3 = number % 3 == 0;
+        if(isDivisibleBy3) {
+            applyNumberDivisibilityRule(transformedNumber, number, 3);
         }
 
-        boolean isDivisibleBy5 = isDivisibleBy5(number);
-        if (isDivisibleBy5) {
-            transformedNumber.append("BAR");
+        boolean isDivisibleBy5 = number % 5 == 0;
+        if(isDivisibleBy5) {
+            applyNumberDivisibilityRule(transformedNumber, number, 5);
         }
 
-        int onesDigit = number % 10;
+        boolean divisibleCheckIsKo = !isDivisibleBy3 && !isDivisibleBy5;
+
         int tensDigit = number / 10;
 
         if (tensDigit != 0) {
-
-            switch (tensDigit) {
-                case 3:
-                    transformedNumber.append("FOO");
-                    break;
-                case 5:
-                    transformedNumber.append("BAR");
-                    break;
-                case 7:
-                    transformedNumber.append("QUIX");
-                    break;
-                default:
-                    transformedNumber.append(!isDivisibleBy5 && !isDivisibleBy3 ? tensDigit : "");
-                    break;
-            }
+            applyDigitEqualityRule(transformedNumber, divisibleCheckIsKo, tensDigit);
         }
 
-        if (onesDigit != 0) {
+        int onesDigit = number % 10;
 
-            switch (onesDigit) {
-                case 3:
-                    transformedNumber.append("FOO");
-                    break;
-                case 5:
-                    transformedNumber.append("BAR");
-                    break;
-                case 7:
-                    transformedNumber.append("QUIX");
-                    break;
-                default:
-                    transformedNumber.append(!isDivisibleBy5 && !isDivisibleBy3 ? onesDigit : "");
-                    break;
-            }
+        if (onesDigit != 0) {
+            applyDigitEqualityRule(transformedNumber, divisibleCheckIsKo, onesDigit);
         }
 
         return transformedNumber.toString();
     }
 
-    private boolean isDivisibleBy3(int digit) {
-        return digit % 3 == 0;
+    private void applyDigitEqualityRule(StringBuilder transformedNumber, boolean divisibleCheckIsKo, int digit) {
+            switch (digit) {
+                case 3:
+                    transformedNumber.append("FOO");
+                    break;
+                case 5:
+                    transformedNumber.append("BAR");
+                    break;
+                case 7:
+                    transformedNumber.append("QUIX");
+                    break;
+                default:
+                    transformedNumber.append(divisibleCheckIsKo ? digit : "");
+                    break;
+            }
     }
 
-    private boolean isDivisibleBy5(int digit) {
-        return digit % 5 == 0;
+    private void applyNumberDivisibilityRule(StringBuilder transformedNumber, Integer number, int divisor) {
+        switch (divisor){
+            case 3 -> transformedNumber.append("FOO");
+            case 5 -> transformedNumber.append("BAR");
+        };
     }
 
 }
