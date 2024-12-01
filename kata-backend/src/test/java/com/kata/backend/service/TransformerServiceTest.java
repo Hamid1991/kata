@@ -48,7 +48,7 @@ public class TransformerServiceTest {
     }
 
     @Test
-    public void transformNumber_returnsBAR1BARFOOBARFOO_whenNumberIsOneHundred() {
+    public void transformNumber_returnsBAR_whenNumberIsOneHundred() {
         //Given
         Integer oneHundred = 100;
 
@@ -56,12 +56,12 @@ public class TransformerServiceTest {
         String actualResult = transformerService.transformNumber(oneHundred);
 
         //Then
-        String expectedResult = "BAR1BARFOOBARFOO";
+        String expectedResult = "BAR";
         assertEquals(expectedResult, actualResult);
     }
 
     @Test
-    public void transformNumber_returnsBARFOO_whenNumberIsZero() {
+    public void transformNumber_returnsFOOBAR_whenNumberIsZero() {
         //Given
         Integer zero = 0;
 
@@ -69,7 +69,7 @@ public class TransformerServiceTest {
         String actualResult = transformerService.transformNumber(zero);
 
         //Then
-        String expectedResult = "BARFOO";
+        String expectedResult = "FOOBAR";
         assertEquals(expectedResult, actualResult);
     }
 

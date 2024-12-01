@@ -13,14 +13,6 @@ public class TransformerService {
             return format("the number %d is out of range [0-100]", number);
         }
 
-        if(number == 100) {
-            return "BAR1BARFOOBARFOO";
-        }
-
-        if(number == 0) {
-            return "BARFOO";
-        }
-
         StringBuilder transformedNumber = new StringBuilder();
 
         boolean isDivisibleBy3 = isDivisibleBy3(number);
