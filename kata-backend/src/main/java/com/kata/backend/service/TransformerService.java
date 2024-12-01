@@ -17,12 +17,12 @@ public class TransformerService {
 
         boolean isDivisibleBy3 = number % 3 == 0;
         if(isDivisibleBy3) {
-            applyNumberDivisibilityRule(transformedNumber, number, 3);
+            applyNumberDivisibilityRule(transformedNumber, 3);
         }
 
         boolean isDivisibleBy5 = number % 5 == 0;
         if(isDivisibleBy5) {
-            applyNumberDivisibilityRule(transformedNumber, number, 5);
+            applyNumberDivisibilityRule(transformedNumber, 5);
         }
 
         boolean divisibleCheckIsKo = !isDivisibleBy3 && !isDivisibleBy5;
@@ -59,11 +59,11 @@ public class TransformerService {
             }
     }
 
-    private void applyNumberDivisibilityRule(StringBuilder transformedNumber, Integer number, int divisor) {
+    private void applyNumberDivisibilityRule(StringBuilder transformedNumber, int divisor) {
         switch (divisor){
             case 3 -> transformedNumber.append("FOO");
             case 5 -> transformedNumber.append("BAR");
-        };
+        }
     }
 
 }
