@@ -112,6 +112,8 @@ public class TransformerServiceTest {
         assertEquals(expectedResult, actualResult);
     }
 
+    // TODO -> implement parametrised tests cases for numbers divisible by 3 and 5 and contains 3 or 5
+
     @Test
     public void transformNumber_returnsFOOBARBAR_whenNumberIsDivisibleBy3And5AndContains5InOnesDigit() {
         //Given
@@ -122,20 +124,6 @@ public class TransformerServiceTest {
 
         //Then
         String expectedResult = "FOOBARBAR";
-        assertEquals(expectedResult, actualResult);
-    }
-
-
-    @Test
-    public void transformNumber_returnsBAR_whenNumberIsOnlyDivisibleBy5() {
-        //Given
-        Integer twenty = 20;
-
-        //When
-        String actualResult = transformerService.transformNumber(twenty);
-
-        //Then
-        String expectedResult = "BAR";
         assertEquals(expectedResult, actualResult);
     }
 
@@ -153,7 +141,7 @@ public class TransformerServiceTest {
     }
 
     @Test
-    public void transformNumber_returnsFOOBAR_whenNumberIsDivisibleBy3And5AndContains5() {
+    public void transformNumber_returnsFOOBAR_whenNumberIsDivisibleBy3And5AndContains5InTensDigit() {
         //Given
         Integer fiftyOne = 51;
 
@@ -162,6 +150,20 @@ public class TransformerServiceTest {
 
         //Then
         String expectedResult = "FOOBAR";
+        assertEquals(expectedResult, actualResult);
+    }
+
+
+    @Test
+    public void transformNumber_returnsBAR_whenNumberIsOnlyDivisibleBy5() {
+        //Given
+        Integer twenty = 20;
+
+        //When
+        String actualResult = transformerService.transformNumber(twenty);
+
+        //Then
+        String expectedResult = "BAR";
         assertEquals(expectedResult, actualResult);
     }
 
