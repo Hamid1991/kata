@@ -30,18 +30,18 @@ public class TransformerService {
             applyNumberDivisibilityRule(transformedNumber, 5);
         }
 
-        boolean divisibleCheckIsKo = !isDivisibleBy3 && !isDivisibleBy5;
+        boolean divisibilityCheckIsKo = !isDivisibleBy3 && !isDivisibleBy5;
 
         int tensDigit = number / 10;
 
         if (tensDigit != 0) {
-            applyDigitEqualityRule(transformedNumber, divisibleCheckIsKo, tensDigit);
+            applyDigitEqualityRule(transformedNumber, divisibilityCheckIsKo, tensDigit);
         }
 
         int onesDigit = number % 10;
 
         if (onesDigit != 0) {
-            applyDigitEqualityRule(transformedNumber, divisibleCheckIsKo, onesDigit);
+            applyDigitEqualityRule(transformedNumber, divisibilityCheckIsKo, onesDigit);
         }
 
         return transformedNumber.toString();
