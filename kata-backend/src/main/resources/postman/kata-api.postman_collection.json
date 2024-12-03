@@ -13,7 +13,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"number\": 9\r\n}",
+					"raw": "{\r\n    \"numberToTransform\": 56\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,13 +21,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/transform",
+					"raw": "http://localhost:8080/api/transform",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "8080",
 					"path": [
+						"api",
 						"transform"
 					]
 				}
