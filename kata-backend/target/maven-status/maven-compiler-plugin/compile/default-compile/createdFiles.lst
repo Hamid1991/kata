@@ -1,0 +1,5 @@
+com/kata/backend/KataBackendApplication.class
+com/kata/backend/dto/NumberToTransformDto.class
+com/kata/backend/dto/TransformedNumberDto.class
+com/kata/backend/controller/TransformerController.class
+com/kata/backend/service/TransformerService.class

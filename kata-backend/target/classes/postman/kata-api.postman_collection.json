@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "0aed04e4-fecf-4a4d-95a1-b04d8ad81089",
+		"name": "kata-api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1001545"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/transform",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numberToTransform\": 56\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/transform",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"transform"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
