@@ -14,37 +14,44 @@ public class TransformerService {
 
     public String transformNumber(Integer number){
 
-        if(number > 100 || number < 0) {
+        if(isOutOfRange(number)) {
             return format(THE_NUMBER_D_IS_OUT_OF_RANGE_0_100, number);
         }
 
         StringBuilder transformedNumber = new StringBuilder();
 
-        boolean isDivisibleBy3 = number % 3 == 0;
+        boolean isDivisibleBy3 = isDivisibleBy(3, number);
         if(isDivisibleBy3) {
             applyNumberDivisibilityRule(transformedNumber, 3);
         }
 
-        boolean isDivisibleBy5 = number % 5 == 0;
+        boolean isDivisibleBy5 = isDivisibleBy(5, number);
         if(isDivisibleBy5) {
             applyNumberDivisibilityRule(transformedNumber, 5);
         }
 
-        boolean divisibilityCheckIsKo = !isDivisibleBy3 && !isDivisibleBy5;
-
+        boolean isNotDivisibleBy3And5 = !isDivisibleBy3 && !isDivisibleBy5;
         int tensDigit = number / 10;
 
         if (tensDigit != 0) {
-            applyDigitEqualityRule(transformedNumber, divisibilityCheckIsKo, tensDigit);
+            applyDigitEqualityRule(transformedNumber, isNotDivisibleBy3And5, tensDigit);
         }
 
         int onesDigit = number % 10;
 
         if (onesDigit != 0) {
-            applyDigitEqualityRule(transformedNumber, divisibilityCheckIsKo, onesDigit);
+            applyDigitEqualityRule(transformedNumber, isNotDivisibleBy3And5, onesDigit);
         }
 
         return transformedNumber.toString();
+    }
+
+    private static boolean isOutOfRange(Integer number) {
+        return number > 100 || number < 0;
+    }
+
+    private boolean isDivisibleBy(int divisor, int number) {
+        return number % divisor == 0;
     }
 
     private void applyDigitEqualityRule(StringBuilder transformedNumber, boolean divisibleCheckIsKo, int digit) {
