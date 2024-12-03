@@ -4,30 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47d7cd4f-8eb6-4b37-a52e-2db2de5ef44d" name="Changes" comment="disable strictPropertyInitialization to false.">
+    <list default="true" id="47d7cd4f-8eb6-4b37-a52e-2db2de5ef44d" name="Changes" comment="commit missing file under .idea folder.">
       <change afterPath="$PROJECT_DIR$/qodana.sarif.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/KataBackendApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/controller/TransformerController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/dto/NumberToTransformDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/dto/TransformedNumberDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/service/TransformerService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/postman/kata-api.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/kata-backend-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/kata-backend-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/surefire-reports/TEST-com.kata.backend.KataBackendApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/surefire-reports/com.kata.backend.KataBackendApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/test-classes/com/kata/backend/KataBackendApplicationTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-backend/target/test-classes/com/kata/backend/service/TransformerServiceTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-frontend/src/app/app.component.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-frontend/src/app/app.component.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kata-frontend/src/app/app.component.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +216,7 @@
       <workItem from="1733163422812" duration="9001000" />
       <workItem from="1733219888545" duration="971000" />
       <workItem from="1733220885588" duration="4326000" />
-      <workItem from="1733231755772" duration="3657000" />
+      <workItem from="1733231755772" duration="4142000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -431,7 +410,39 @@
       <option name="project" value="LOCAL" />
       <updated>1733235442924</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="upload new postman collection.">
+      <option name="closed" value="true" />
+      <created>1733235575222</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235575222</updated>
+    </task>
+    <task id="LOCAL-00026" summary="remove unnecessary files.">
+      <option name="closed" value="true" />
+      <created>1733235616770</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235616770</updated>
+    </task>
+    <task id="LOCAL-00027" summary="commit target files.">
+      <option name="closed" value="true" />
+      <created>1733235829271</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235829271</updated>
+    </task>
+    <task id="LOCAL-00028" summary="commit missing file under .idea folder.">
+      <option name="closed" value="true" />
+      <created>1733235917219</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235917219</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -487,7 +498,6 @@
     <MESSAGE value="implement controller, body and response body." />
     <MESSAGE value="some renamings." />
     <MESSAGE value="create postman api collection." />
-    <MESSAGE value="commit target files." />
     <MESSAGE value="renaming the field of NumberToTransformDto class." />
     <MESSAGE value="some refactorings." />
     <MESSAGE value="remove unnecessary lines." />
@@ -495,7 +505,11 @@
     <MESSAGE value="add transformer service." />
     <MESSAGE value="enable cors configuration." />
     <MESSAGE value="disable strictPropertyInitialization to false." />
-    <option name="LAST_COMMIT_MESSAGE" value="disable strictPropertyInitialization to false." />
+    <MESSAGE value="upload new postman collection." />
+    <MESSAGE value="remove unnecessary files." />
+    <MESSAGE value="commit target files." />
+    <MESSAGE value="commit missing file under .idea folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="commit missing file under .idea folder." />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
