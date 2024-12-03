@@ -32,13 +32,11 @@ public class TransformerService {
 
         boolean isNotDivisibleBy3And5 = !isDivisibleBy3 && !isDivisibleBy5;
         int tensDigit = number / 10;
-
         if (tensDigit != 0) {
             applyDigitEqualityRule(transformedNumber, isNotDivisibleBy3And5, tensDigit);
         }
 
         int onesDigit = number % 10;
-
         if (onesDigit != 0) {
             applyDigitEqualityRule(transformedNumber, isNotDivisibleBy3And5, onesDigit);
         }
