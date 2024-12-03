@@ -1,3 +1,3 @@
 package com.kata.backend.dto;
 
-public record NumberToTransformDto(Integer number) {}
+public record NumberToTransformDto(Integer numberToTransform) {}

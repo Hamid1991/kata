@@ -20,7 +20,7 @@ public class TransformerController {
     @PostMapping("/transform")
     @ResponseBody
     public TransformedNumberDto transformNumber(@RequestBody NumberToTransformDto numberToTransformDto) {
-        Integer numberToTransform = numberToTransformDto.number();
+        Integer numberToTransform = numberToTransformDto.numberToTransform();
         String transformedNumber = transformerService.transformNumber(numberToTransform);
         return new TransformedNumberDto(transformedNumber);
     }
