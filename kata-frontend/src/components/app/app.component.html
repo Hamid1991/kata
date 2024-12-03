@@ -1,0 +1,31 @@
+<div class="container">
+  <h1>API number transformation</h1>
+
+  <!-- Form for user input -->
+  <form (ngSubmit)="transformNumber()" #dataForm="ngForm">
+    <div class="form-group">
+      <label for="inputData">Enter Number:</label>
+      <input
+        type="text"
+        id="inputData"
+        name="inputData"
+        class="form-control"
+        [(ngModel)]="numberToTransform"
+        min="0"
+        max="100"
+        #inputData="ngModel"
+      />
+      <div *ngIf="inputData.invalid && inputData.touched" class="error">
+      </div>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="!dataForm.valid">
+      Transform number
+    </button>
+  </form>
+
+  <!-- Show response after successful API call -->
+  <div *ngIf="transformedNumber" class="mt-3">
+    <h2>Response from API:</h2>
+    <p>{{ transformedNumber.transformedNumber }}</p>
+  </div>
+</div>

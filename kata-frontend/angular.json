@@ -62,9 +62,13 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "proxyConfig": "src/proxy.conf.json"
+          },
           "configurations": {
             "production": {
-              "buildTarget": "kata-frontend:build:production"
+              "buildTarget": "kata-frontend:build:production",
+              "proxyConfig": "src/proxy.config.json"
             },
             "development": {
               "buildTarget": "kata-frontend:build:development"
