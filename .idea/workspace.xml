@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="47d7cd4f-8eb6-4b37-a52e-2db2de5ef44d" name="Changes" comment="disable strictPropertyInitialization to false.">
+      <change afterPath="$PROJECT_DIR$/qodana.sarif.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/KataBackendApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/controller/TransformerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/dto/NumberToTransformDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/dto/TransformedNumberDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/com/kata/backend/service/TransformerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/classes/postman/kata-api.postman_collection.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/kata-backend-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/kata-backend-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/surefire-reports/TEST-com.kata.backend.KataBackendApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/surefire-reports/com.kata.backend.KataBackendApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/test-classes/com/kata/backend/KataBackendApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-backend/target/test-classes/com/kata/backend/service/TransformerServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-frontend/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-frontend/src/app/app.component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kata-frontend/src/app/app.component.ts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Record" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hamid1991&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:Hamid1991/kata.git&quot;,
+    &quot;accountId&quot;: &quot;83569c55-5995-4223-b881-492460dbfd60&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2pZO19K00itYNCwgzuPJ6OjvYEw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.KataBackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransformerServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransformerServiceTest.testTransform_returns1BARFOOBARFOO_whenNumberIsOneHundred.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TransformerServiceTest.transformNumber_returnsFOO_whenNumberIsOnlyDivisibleBy3.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.KataBackendApplication.executor&quot;: &quot;Run&quot;,
+    &quot;extract.method.default.visibility&quot;: &quot;private&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;introduce.parameter.lambda&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17 (WSL)&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;//wsl.localhost/Ubuntu-22.04/home/hamidk/projects/kata/kata-backend/src/main/resources/postman&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_interpreter_path&quot;: &quot;wsl://Ubuntu-22.04@/usr/bin/node&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15429688&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41156068&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.qodana&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;\\\\wsl.localhost\\Ubuntu-22.04\\home\\hamidk\\projects\\kata\\kata-frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="QodanaHighlightedReportService">
+    <option name="localReportPersistedInfo">
+      <LocalReportPersistedInfo>
+        <option name="path" value="\\wsl.localhost\Ubuntu-22.04\home\hamidk\projects\kata\qodana.sarif.json" />
+        <option name="reportGuid" value="98e9b636-c57a-4b38-b124-c65d501399de" />
+        <option name="reportName" value="kata/qodana/2024-12-03" />
+      </LocalReportPersistedInfo>
+    </option>
+  </component>
+  <component name="QodanaIsSelectedPersistenceService">
+    <option name="selectedOrLoading" value="true" />
+  </component>
+  <component name="QodanaReportsService">
+    <option name="descriptions">
+      <ReportDescription path="\\wsl.localhost\Ubuntu-22.04\home\hamidk\projects\kata\qodana.sarif.json" reportGuid="98e9b636-c57a-4b38-b124-c65d501399de" reportId="kata/qodana/2024-12-03" />
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.kata.backend.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-22.04\home\hamidk\projects\kata\kata-backend\src\main\resources\postman" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu-22.04\home\hamidk\projects\kata\kata-frontend\src\components" />
+      <recent name="\\wsl.localhost\Ubuntu-22.04\home\hamidk\projects\kata\kata-frontend\src" />
+      <recent name="\\wsl.localhost\Ubuntu-22.04\home\hamidk\projects\kata\kata-frontend\src\app\services" />
+      <recent name="\\wsl.localhost\Ubuntu-22.04\home\hamidk\projects\kata\kata-frontend\src\app\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.KataBackendApplication">
+    <configuration name="KataBackendApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kata.backend.KataBackendApplication" />
+      <module name="kata-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kata.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransformerServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kata-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kata.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kata.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kata.backend.service.TransformerServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransformerServiceTest.testTransform_returns1BARFOOBARFOO_whenNumberIsOneHundred" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kata-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kata.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kata.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kata.backend.service.TransformerServiceTest" />
+      <option name="METHOD_NAME" value="testTransform_returns1BARFOOBARFOO_whenNumberIsOneHundred" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransformerServiceTest.transformNumber_returnsFOO_whenNumberIsOnlyDivisibleBy3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kata-backend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kata.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.kata.backend.service" />
+      <option name="MAIN_CLASS_NAME" value="com.kata.backend.service.TransformerServiceTest" />
+      <option name="METHOD_NAME" value="transformNumber_returnsFOO_whenNumberIsOnlyDivisibleBy3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KataBackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="kata-backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.kata.backend.KataBackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TransformerServiceTest" />
+        <item itemvalue="JUnit.TransformerServiceTest.transformNumber_returnsFOO_whenNumberIsOnlyDivisibleBy3" />
+        <item itemvalue="JUnit.TransformerServiceTest.testTransform_returns1BARFOOBARFOO_whenNumberIsOneHundred" />
+        <item itemvalue="Application.KataBackendApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.24807.4" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.24807.4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47d7cd4f-8eb6-4b37-a52e-2db2de5ef44d" name="Changes" comment="" />
+      <created>1732969914364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732969914364</updated>
+      <workItem from="1732969915158" duration="6216000" />
+      <workItem from="1733054711833" duration="582000" />
+      <workItem from="1733055313743" duration="67000" />
+      <workItem from="1733055395830" duration="8405000" />
+      <workItem from="1733063893460" duration="28630000" />
+      <workItem from="1733163422812" duration="9001000" />
+      <workItem from="1733219888545" duration="971000" />
+      <workItem from="1733220885588" duration="4326000" />
+      <workItem from="1733231755772" duration="3657000" />
+    </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1733055941146</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733055941146</updated>
+    </task>
+    <task id="LOCAL-00002" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1733056067619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733056067619</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commit">
+      <option name="closed" value="true" />
+      <created>1733056091410</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733056091410</updated>
+    </task>
+    <task id="LOCAL-00004" summary="implement basic tests cases and TransformerService">
+      <option name="closed" value="true" />
+      <created>1733068764618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733068764618</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix typos.">
+      <option name="closed" value="true" />
+      <created>1733068888115</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733068888115</updated>
+    </task>
+    <task id="LOCAL-00006" summary="implement more complexes cases; check on divisibility by 3 and 5 is prior than contains rules.">
+      <option name="closed" value="true" />
+      <created>1733071847602</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733071847602</updated>
+    </task>
+    <task id="LOCAL-00007" summary="fix typos.">
+      <option name="closed" value="true" />
+      <created>1733071933900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733071933900</updated>
+    </task>
+    <task id="LOCAL-00008" summary="fix expected results for 0 and 100.">
+      <option name="closed" value="true" />
+      <created>1733074630350</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733074630350</updated>
+    </task>
+    <task id="LOCAL-00009" summary="create methods applying number divisibility and digit equality rules; some refactorings.">
+      <option name="closed" value="true" />
+      <created>1733074828640</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1733074828640</updated>
+    </task>
+    <task id="LOCAL-00010" summary="create methods applying number divisibility and digit equality rules; some refactorings.">
+      <option name="closed" value="true" />
+      <created>1733074916878</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1733074916878</updated>
+    </task>
+    <task id="LOCAL-00011" summary="extract constants.">
+      <option name="closed" value="true" />
+      <created>1733075620817</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1733075620817</updated>
+    </task>
+    <task id="LOCAL-00012" summary="TODO actions.">
+      <option name="closed" value="true" />
+      <created>1733075709666</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1733075709666</updated>
+    </task>
+    <task id="LOCAL-00013" summary="implement controller, body and response body.">
+      <option name="closed" value="true" />
+      <created>1733075930766</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1733075930766</updated>
+    </task>
+    <task id="LOCAL-00014" summary="implement controller, body and response body.">
+      <option name="closed" value="true" />
+      <created>1733075943057</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1733075943057</updated>
+    </task>
+    <task id="LOCAL-00015" summary="some renamings.">
+      <option name="closed" value="true" />
+      <created>1733113601612</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1733113601612</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create postman api collection.">
+      <option name="closed" value="true" />
+      <created>1733113636085</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1733113636085</updated>
+    </task>
+    <task id="LOCAL-00017" summary="commit target files.">
+      <option name="closed" value="true" />
+      <created>1733114862899</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1733114862899</updated>
+    </task>
+    <task id="LOCAL-00018" summary="renaming the field of NumberToTransformDto class.">
+      <option name="closed" value="true" />
+      <created>1733232486239</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1733232486239</updated>
+    </task>
+    <task id="LOCAL-00019" summary="some refactorings.">
+      <option name="closed" value="true" />
+      <created>1733232547681</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1733232547681</updated>
+    </task>
+    <task id="LOCAL-00020" summary="remove unnecessary lines.">
+      <option name="closed" value="true" />
+      <created>1733232582304</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733232582304</updated>
+    </task>
+    <task id="LOCAL-00021" summary="generate transformer component.">
+      <option name="closed" value="true" />
+      <created>1733235259914</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235259914</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add transformer service.">
+      <option name="closed" value="true" />
+      <created>1733235281072</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235281072</updated>
+    </task>
+    <task id="LOCAL-00023" summary="enable cors configuration.">
+      <option name="closed" value="true" />
+      <created>1733235337414</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235337414</updated>
+    </task>
+    <task id="LOCAL-00024" summary="disable strictPropertyInitialization to false.">
+      <option name="closed" value="true" />
+      <created>1733235442924</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1733235442924</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="*" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="user">
+                    <value>
+                      <list>
+                        <option value="*" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="implement basic tests cases and TransformerService" />
+    <MESSAGE value="implement more complexes cases; check on divisibility by 3 and 5 is prior than contains rules." />
+    <MESSAGE value="fix typos." />
+    <MESSAGE value="fix expected results for 0 and 100." />
+    <MESSAGE value="create methods applying number divisibility and digit equality rules; some refactorings." />
+    <MESSAGE value="extract constants." />
+    <MESSAGE value="TODO actions." />
+    <MESSAGE value="implement controller, body and response body." />
+    <MESSAGE value="some renamings." />
+    <MESSAGE value="create postman api collection." />
+    <MESSAGE value="commit target files." />
+    <MESSAGE value="renaming the field of NumberToTransformDto class." />
+    <MESSAGE value="some refactorings." />
+    <MESSAGE value="remove unnecessary lines." />
+    <MESSAGE value="generate transformer component." />
+    <MESSAGE value="add transformer service." />
+    <MESSAGE value="enable cors configuration." />
+    <MESSAGE value="disable strictPropertyInitialization to false." />
+    <option name="LAST_COMMIT_MESSAGE" value="disable strictPropertyInitialization to false." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
