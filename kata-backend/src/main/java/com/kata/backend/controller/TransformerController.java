@@ -3,12 +3,11 @@ package com.kata.backend.controller;
 import com.kata.backend.dto.NumberToTransformDto;
 import com.kata.backend.dto.TransformedNumberDto;
 import com.kata.backend.service.TransformerService;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
+@RequestMapping("/api")
+@CrossOrigin
 public class TransformerController {
 
     private final TransformerService transformerService;
